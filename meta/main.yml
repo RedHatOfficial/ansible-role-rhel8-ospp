@@ -2,6 +2,7 @@ galaxy_info:
   role_name: rhel8_ospp
   author: ComplianceAsCode development team
   description: Protection Profile for General Purpose Operating Systems
+  company: Red Hat, Inc.
 
   issue_tracker_url: https://github.com/ComplianceAsCode/content/issues
 
@@ -10,15 +11,9 @@ galaxy_info:
   min_ansible_version: 2.5
 
   platforms:
-  - name: GenericBSD
+  - name: EL
     versions:
-    - any
-  - name: GenericLinux
-    versions:
-    - any
-  - name: GenericUNIX
-    versions:
-    - any
+    - 8
 
   galaxy_tags:
   - system
@@ -26,8 +21,19 @@ galaxy_info:
   - openscap
   - ssg
   - scap
+  - complianceascode
   - security
   - compliance
-  - compliaceascode
+  - cnssi1253
+  - nist800171
+  - nist80053
+  - usgcb
+  - ospp
+  - niap
+  - nist
+  - ncp
+  - commoncriteria
+  - redhatofficial
+  - redhat
 
 dependencies: []
