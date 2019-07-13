@@ -609,11 +609,7 @@
   - CJIS-5.10.4.1
 
 - name: Read files with incorrect hash
-  shell: 'set -o pipefail
-
-    rpm -Va | grep -E ''^..5.* /(bin|sbin|lib|lib64|usr)/'' | awk ''{print $NF}''
-
-    '
+  shell: 'set -o pipefail rpm -Va | grep -E ''^..5.* /(bin|sbin|lib|lib64|usr)/'' | awk ''{print $NF}'' '
   args:
     warn: false
     executable: /bin/bash
