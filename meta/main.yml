@@ -2,7 +2,6 @@ galaxy_info:
   role_name: rhel8_ospp
   author: ComplianceAsCode development team
   description: Protection Profile for General Purpose Operating Systems
-  company: Red Hat, Inc.
 
   issue_tracker_url: https://github.com/ComplianceAsCode/content/issues
 
@@ -21,19 +20,13 @@ galaxy_info:
   - openscap
   - ssg
   - scap
-  - complianceascode
   - security
   - compliance
-  - cnssi1253
-  - nist800171
-  - nist80053
-  - usgcb
-  - ospp
-  - niap
-  - nist
-  - ncp
-  - commoncriteria
+  - complianceascode
   - redhatofficial
   - redhat
+  - rhel8
+  - ospp
+
 
 dependencies: []
