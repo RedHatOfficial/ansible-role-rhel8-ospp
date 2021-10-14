@@ -1,6 +1,5 @@
 galaxy_info:
   role_name: rhel8_ospp
-  namespace: redhatofficial
   author: ComplianceAsCode development team
   description: Protection Profile for General Purpose Operating Systems
 
@@ -15,19 +14,8 @@ galaxy_info:
     versions:
     - 8
 
-  galaxy_tags:
-  - system
-  - hardening
-  - openscap
-  - ssg
-  - scap
-  - security
-  - compliance
-  - complianceascode
-  - redhatofficial
-  - redhat
-  - rhel8
-  - ospp
+  galaxy_tags: [system, hardening, openscap, ssg, scap, security, compliance, complianceascode,
+  redhatofficial, redhat, rhel8, ospp]
 
 
 dependencies: []
