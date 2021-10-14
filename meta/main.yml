@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: rhel8_ospp
+  namespace: redhatofficial
   author: ComplianceAsCode development team
   description: Protection Profile for General Purpose Operating Systems
 
